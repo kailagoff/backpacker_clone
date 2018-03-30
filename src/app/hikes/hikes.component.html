@@ -16,3 +16,11 @@
 <div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
     <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
 </div>
+
+
+<h4>Oregon Hikes</h4>
+<div id="map"></div>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcVGrwkLoI-DY42RWuGn8FKkUWv_ErYs8&callback=initMap">
+</script>
