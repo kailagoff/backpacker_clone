@@ -1,7 +1,10 @@
 <h1>Local Hikes</h1>
 <p>Now, BACKPACKER is in your hometown. On our local city pages, our Trail Scouts collect the best hikes, news, events, and more for cities around the U.S., so you can get out more. Select the city closest to you, and get hiking.</p>
 
-
-<div *ngFor="let hike of hikes">
-    <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
+<div *ngFor="let hike of hikes | async" (click)="goToDetailPage(hike)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{hike.title}}</em> {{hike.distance}}</h3>
+  </div>
 </div>
+
+<a routerLink="hike-detail">HIKE DETAILS</a>

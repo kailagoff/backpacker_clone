@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Hike } from '../hike.model';
 import { Router } from '@angular/router';
+import { FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-hikes',
@@ -8,11 +9,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./hikes.component.css']
 })
 export class HikesComponent  {
+  hikes: FirebaseListObservable<any[]>;
   constructor(private router: Router){}
-
-  hikes: Hike[] = [
-    new Hike( "Pup Creek Falls", "Oregon", "6.3 Miles", "Climb an easy 1,000 feet above the Clackamas River to a three-tiered waterfall that rivals almost anything in Maui.", 1)
-  ]
 
   goToDetailPage(clickedHike: Hike) {
     this.router.navigate(['hikes', clickedHike.id]);
