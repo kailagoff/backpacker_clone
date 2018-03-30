@@ -39,7 +39,7 @@ const appRoutes: Routes = [
   component: StoriesComponent
   },
   {
-  path: 'hikes',
+  path: 'hikes/:id',
   component: HikesComponent
   },
 ];
