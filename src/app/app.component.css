@@ -11,8 +11,12 @@
   color: goldenrod;
   font-size: 87px;
   font-family: 'Oswald', sans-serif;
-  height: 259px;
+  height: 279px;
   letter-spacing: 2px;
+}
+
+ul {
+  font-size: 22px;
 }
 
 .well {
