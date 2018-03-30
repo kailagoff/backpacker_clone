@@ -1,4 +1,13 @@
 <div class="jumbotron">
+  <ul class="nav navbar-nav navbar-right">
+    <li *ngIf="isLoggedIn">
+      <a>{{userName}}</a>
+      <a (click)="logout()">Log out</a>
+    </li>
+    <li *ngIf ="!isLoggedIn">
+      <a (click)="login()">Log in</a>
+    </li>
+  </ul>
   <p routerLink=""><strong>{{title}}</strong></p>
   <div class="well">
     <nav class="navbar1">
@@ -11,16 +20,6 @@
       <a routerLink="stories">STORIES</a> |
       <a routerLink="hikes">LOCAL HIKES</a> |
     </nav>
-
-    <ul class="nav navbar-nav navbar-right">
-      <li *ngIf="isLoggedIn"> \\if the user is logged in, we’ll show that user’s name along with an event binding to logout.
-        <a>{{userName}}</a>
-        <a (click)="logout()">Log out</a>
-      </li>
-      <li *ngIf ="!isLoggedIn"> \\if the user isn’t logged in, we’ll have an event binding to login.
-        <a (click)="login()">Log in</a>
-      </li>
-    </ul>
   </div>
 </div>
 
