@@ -4,6 +4,30 @@
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 400px;
+}
+
+#oregon {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#oregon-bottom-right {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+#colorado {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#colorado-bottom-right {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
