@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Hike } from '../hike.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-hikes',
@@ -6,10 +8,34 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hikes.component.css']
 })
 export class HikesComponent  {
+  constructor(private router: Router){}
 
-  constructor() {
+  hikes: Hike[] = [
+    new Hike( "Pup Creek Falls", "Oregon", "6.3 Miles", "Climb an easy 1,000 feet above the Clackamas River to a three-tiered waterfall that rivals almost anything in Maui.", 1)
+  ]
 
-  }
+  goToDetailPage(clickedHike: Hike) {
+    this.router.navigate(['hikes', clickedHike.id]);
+  };
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //   initMap(){
 //     //map options
@@ -91,5 +117,3 @@ export class HikesComponent  {
 //     };
 //   };
 // };
-
-}

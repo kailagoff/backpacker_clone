@@ -1,3 +1,30 @@
-<p>
-  hike-detail works!
-</p>
+<div class="row">
+  <div class="col-md-3">
+    <img src="https://www.backpacker.com/.image/c_limit%2Ccs_srgb%2Cq_80%2Cw_640/MTQ0OTE0MTE0ODA4MTI5MDg5/ice-lake-eagle-cap-wilderness-oregon.webp"  width="200" height ="200" alt="Sunset views while hiking in the Oregon Eagle Cap Wilderness">
+    <p>Joe Whittle</p>
+  </div>
+  <div class="col-md-9">
+
+  <p *ngIf="isLoggedIn">
+    Here's some bonus content for signed-in users.
+  </p>
+
+  <h1>Oregon Trails</h1>
+
+  <p>Oregon, located in the Pacific Northwest region of the U.S., is defined by rugged cliffs along the coastline, the vibrant volcanic Cascade range including Mt. Hood farther inland, and the Columbia Plateau to the east. The plateau was created by lava flow, forming deep valleys and jagged mountains. And there's no better way to get to see it than with our list of Oregon hikes.</p>
+
+  <p>Oregon is home to Crater Lake National Park, which contains the country's deepest lake formed by an eruption 7,700 years ago that collapsed the volcano. Among the many Oregon hikes the state has to offer, the Pacific Crest Trail passes through this area, and much of Oregon. The 2,663-mile-long trail from the United States-Mexico border through California, Oregon, and Washington, reaches its northern terminus at the United States-Canada border. The Pacific Crest Trail is known as a challenging thru-hiking and backpacking route through some of the country’s most spectacular wilderness ranges.</p>
+  </div>
+</div>
+
+<div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
+    <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
+</div>
+
+
+<h4>Oregon Hikes</h4>
+<div id="map"></div>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcVGrwkLoI-DY42RWuGn8FKkUWv_ErYs8&callback=initMap">
+</script>
