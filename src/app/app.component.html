@@ -1,24 +1,20 @@
 <div class="jumbotron">
-  <p><strong>{{title}}</strong></p>
-  <div class="navbar1">
-    <h3><a routerLink="gear">GEAR</a></h3>
-    <h3><a routerLink="trips">TRIPS</a></h3>
-    <h3><a routerLink="skills">SKILLS</a></h3>
-    <h3><a routerLink="survival">SURVIVAL</a></h3>
-    <h3><a routerLink="media">NEWS & EVENTS</a></h3>
-    <h3><a routerLink="images">VIDEOS & PHOTOS</a></h3>
-    <h3><a routerLink="stories">STORIES</a></h3>
-    <h3><a routerLink="hikes">LOCAL HIKES</a></h3>
+  <p routerLink=""><strong>{{title}}</strong></p>
+  <div class="well">
+    <nav class="navbar1">
+      <a routerLink="gear">GEAR</a> |
+      <a routerLink="trips">TRIPS</a> |
+      <a routerLink="skills">SKILLS</a> |
+      <a routerLink="survival">SURVIVAL</a> |
+      <a routerLink="media">NEWS & EVENTS</a> |
+      <a routerLink="images">VIDEOS & PHOTOS</a> |
+      <a routerLink="stories">STORIES</a> |
+      <a routerLink="hikes">LOCAL HIKES</a> |
+    </nav>
   </div>
 </div>
-<nav class="navbar1">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Home</a>
-    </div>
 
-  </div>
-</nav>
+
 
 <div class="container">
   <router-outlet></router-outlet>

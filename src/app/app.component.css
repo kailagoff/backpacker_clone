@@ -3,6 +3,7 @@
   width: 100%;
   border-bottom: 2px black solid;
   font-family: 'Oswald', sans-serif;
+  color: goldenrod;
 }
 
 .jumbotron {
@@ -10,4 +11,19 @@
   color: goldenrod;
   font-size: 87px;
   font-family: 'Oswald', sans-serif;
+  height: 259px;
+}
+
+.well {
+  background-color: black;
+  font-size: 22px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+   color: grey;
+   text-decoration: none;
 }
