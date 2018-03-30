@@ -7,7 +7,9 @@ import { StoriesComponent } from './stories/stories.component';
 import { ImagesComponent } from './images/images.component';
 import { MediaComponent } from './media/media.component';
 import { SurvivalComponent } from './survival/survival.component';
+
 import { HikesComponent } from './hikes/hikes.component';
+import { HikeDetailComponent }   from './hike-detail/hike-detail.component';
 
 const appRoutes: Routes = [
   {
@@ -39,8 +41,12 @@ const appRoutes: Routes = [
   component: StoriesComponent
   },
   {
+  path: 'hikes',
+  component: HikesComponent,
+  },
+  {
   path: 'hikes/:id',
-  component: HikesComponent
+  component: HikeDetailComponent,
   },
 ];
 

@@ -13,6 +13,6 @@
   </div>
 </div>
 
-<div *ngFor="let hike of hikes">
+<div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
     <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
 </div>
