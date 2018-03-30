@@ -15,8 +15,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * User Authentication
   * Routing for all current pages
 
-### Under-Development Features
+### Under-Development Features(currently working on)
   * Google API
+  * Instagram API
   * Dynamic Routing
 
 ## Components

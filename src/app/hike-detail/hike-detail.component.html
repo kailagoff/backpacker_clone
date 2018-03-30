@@ -9,6 +9,10 @@
     Here's some bonus content for signed-in users.
   </p>
 
+  <div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
+      <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
+  </div>
+
   <h1>Oregon Trails</h1>
 
   <p>Oregon, located in the Pacific Northwest region of the U.S., is defined by rugged cliffs along the coastline, the vibrant volcanic Cascade range including Mt. Hood farther inland, and the Columbia Plateau to the east. The plateau was created by lava flow, forming deep valleys and jagged mountains. And there's no better way to get to see it than with our list of Oregon hikes.</p>
@@ -17,9 +21,7 @@
   </div>
 </div>
 
-<div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
-    <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
-</div>
+
 
 
 <h4>Oregon Hikes</h4>

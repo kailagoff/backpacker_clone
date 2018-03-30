@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Hike } from './hike.model';
-// import { HIKES } from './mock-hike';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
