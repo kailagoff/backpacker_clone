@@ -1,13 +1,4 @@
 <div class="jumbotron">
-  <ul class="nav navbar-nav navbar-right">
-    <li *ngIf="isLoggedIn">
-      <a>{{userName}}</a>
-      <a (click)="logout()">Log out</a>
-    </li>
-    <li *ngIf ="!isLoggedIn">
-      <a (click)="login()">Log in</a>
-    </li>
-  </ul>
   <p routerLink=""><strong>{{title}}</strong></p>
   <div class="well">
     <nav class="navbar1">
@@ -19,6 +10,15 @@
       <a routerLink="images">VIDEOS & PHOTOS</a> |
       <a routerLink="stories">STORIES</a> |
       <a routerLink="hikes">LOCAL HIKES</a> |
+      <ul class="nav navbar-nav navbar-right">
+        <li *ngIf="isLoggedIn">
+          <a>{{userName}}</a>
+          <a (click)="logout()">Log out</a>
+        </li>
+        <li *ngIf ="!isLoggedIn">
+          <a (click)="login()">Log in</a>
+        </li>
+      </ul>
     </nav>
   </div>
 </div>
@@ -33,6 +33,6 @@
   <div class="container">
     <a class="text-muted" routerLink="admin">Admin</a>
     <p>Backpacker Magazine</p>
-    <p><em>Copyright 2018</em></p>
+    <p><em>© 2018 Cruz Bay Publishing, Inc. an Active Interest Media Company.</em></p>
   </div>
 </footer>
