@@ -4,7 +4,7 @@
     <nav class="navbar1">
       <a routerLink="gear">GEAR</a> |
       <a routerLink="survival">SURVIVAL</a> |
-      <a routerLink="images">VIDEOS & PHOTOS</a> |
+      <a routerLink="media">VIDEOS & PHOTOS</a> |
       <a routerLink="hikes">LOCAL HIKES</a> |
       <ul class="nav navbar-nav navbar-right">
         <li *ngIf="isLoggedIn">
@@ -25,6 +25,25 @@
   <router-outlet></router-outlet>
   <app-home></app-home>
 </div>
+
+<div class="jumbotron" id ="jumbotron1">
+   <h2>GEAR</h2>
+   <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+ </div>
+ <div class="jumbotron" id ="jumbotron2">
+  <div class="hero5">
+   <h2>SURVIVAL</h2>
+   <button id="button1" type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+ </div>
+ </div>
+ <div class="jumbotron" id ="jumbotron3">
+   <h2>LOCAL HIKES</h2>
+   <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+ </div>
+ <div class="jumbotron" id ="jumbotron4">
+   <h2>VIDEOS & PHOTOS</h2>
+   <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+ </div>
 
 <footer class="footer">
   <div class="container">
