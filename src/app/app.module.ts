@@ -5,6 +5,8 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { HttpModule } from '@angular/http';
+import { FormsModule }  from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
@@ -35,6 +37,8 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
     routing,
+    HttpModule,
+    FormsModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     AngularFireAuthModule

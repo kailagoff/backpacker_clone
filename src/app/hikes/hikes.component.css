@@ -12,6 +12,7 @@ img {
     position: relative;
     text-align: center;
     color: white;
+    text-shadow: black 2px 2px 2px;
 }
 
 #oregon-bottom-right {
@@ -24,6 +25,7 @@ img {
     position: relative;
     text-align: center;
     color: white;
+    text-shadow: black 2px 2px 2px;
 }
 
 #colorado-bottom-right {
@@ -36,6 +38,7 @@ img {
     position: relative;
     text-align: center;
     color: white;
+    text-shadow: black 2px 2px 2px;
 }
 
 #sanfran-bottom-right {
