@@ -1,12 +1,10 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GearComponent } from './gear/gear.component';
-import { TripsComponent } from './trips/trips.component';
-import { SkillsComponent } from './skills/skills.component';
-import { StoriesComponent } from './stories/stories.component';
-import { ImagesComponent } from './images/images.component';
+
 import { MediaComponent } from './media/media.component';
 import { SurvivalComponent } from './survival/survival.component';
+import { HomeComponent } from './home/home.component';
 
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent }   from './hike-detail/hike-detail.component';
@@ -17,28 +15,12 @@ const appRoutes: Routes = [
   component: GearComponent
   },
   {
-  path: 'trips',
-  component: TripsComponent
-  },
-  {
-  path: 'skills',
-  component: SkillsComponent
-  },
-  {
   path: 'survival',
   component: SurvivalComponent
   },
   {
   path: 'media',
   component: MediaComponent
-  },
-  {
-  path: 'images',
-  component: ImagesComponent
-  },
-  {
-  path: 'stories',
-  component: StoriesComponent
   },
   {
   path: 'hikes',
@@ -48,6 +30,10 @@ const appRoutes: Routes = [
   path: 'hikes/:id',
   component: HikeDetailComponent,
   },
+  {
+  path: 'home',
+  component: HomeComponent,
+  }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);

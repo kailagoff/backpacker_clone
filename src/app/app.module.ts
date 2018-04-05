@@ -9,12 +9,8 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
 import { GearComponent } from './gear/gear.component';
-import { TripsComponent } from './trips/trips.component';
-import { SkillsComponent } from './skills/skills.component';
 import { SurvivalComponent } from './survival/survival.component';
 import { MediaComponent } from './media/media.component';
-import { ImagesComponent } from './images/images.component';
-import { StoriesComponent } from './stories/stories.component';
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent } from './hike-detail/hike-detail.component';
 import { HomeComponent } from './home/home.component';
@@ -30,15 +26,11 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     GearComponent,
-    TripsComponent,
-    SkillsComponent,
     SurvivalComponent,
     MediaComponent,
-    ImagesComponent,
-    StoriesComponent,
     HikesComponent,
     HikeDetailComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
