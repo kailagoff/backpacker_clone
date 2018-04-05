@@ -33,6 +33,22 @@ const appRoutes: Routes = [
   {
   path: 'home',
   component: HomeComponent,
+  },
+  {
+  path: 'home/gear',
+  component: GearComponent,
+  },
+  {
+  path: 'home/survival',
+  component: SurvivalComponent,
+  },
+  {
+  path: 'home/media',
+  component: MediaComponent,
+  },
+  {
+  path: 'home/hikes',
+  component: HikesComponent,
   }
 ];
 
