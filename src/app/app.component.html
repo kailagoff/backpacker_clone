@@ -1,14 +1,10 @@
 <div class="jumbotron">
-  <p routerLink=""><strong>{{title}}</strong></p>
+  <p routerLink=""><strong>{{title}}magazine</strong></p>
   <div class="well">
     <nav class="navbar1">
       <a routerLink="gear">GEAR</a> |
-      <a routerLink="trips">TRIPS</a> |
-      <a routerLink="skills">SKILLS</a> |
       <a routerLink="survival">SURVIVAL</a> |
-      <a routerLink="media">NEWS & EVENTS</a> |
       <a routerLink="images">VIDEOS & PHOTOS</a> |
-      <a routerLink="stories">STORIES</a> |
       <a routerLink="hikes">LOCAL HIKES</a> |
       <ul class="nav navbar-nav navbar-right">
         <li *ngIf="isLoggedIn">
@@ -27,6 +23,7 @@
 
 <div class="container">
   <router-outlet></router-outlet>
+  <app-home></app-home>
 </div>
 
 <footer class="footer">

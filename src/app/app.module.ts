@@ -17,6 +17,7 @@ import { ImagesComponent } from './images/images.component';
 import { StoriesComponent } from './stories/stories.component';
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent } from './hike-detail/hike-detail.component';
+import { HomeComponent } from './home/home.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -36,7 +37,8 @@ export const firebaseConfig = {
     ImagesComponent,
     StoriesComponent,
     HikesComponent,
-    HikeDetailComponent
+    HikeDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
