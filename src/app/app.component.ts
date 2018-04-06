@@ -12,7 +12,7 @@ import { Hike } from './hike.model';
 export class AppComponent {
   title = 'BACKPACKER';
   user;
-  private isLoggedIn: Boolean;
+  public isLoggedIn: Boolean;
   private userName: String;
   public selectedHike = null;
 
