@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * Styling and content of components
   * Google API
   * Instagram API
-  
+
 ## Components
   * Gear | Hike | Images | Media | Skills | Stories | Survival | Trips
 
@@ -34,15 +34,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   3.  _`$ npm install -g angular-cli`_
 
-  4. _Add Firebase API Key (instructions in next section)_
+  4. _Add Firebase API Key (see next section)_
 
   5. _`$ ng serve --open`_
 
   ## Firebase API key
 
-  This app requires the use a Firebase api key to access Firebase database features. You can acquire one of your own to use when running this project by visiting the [Firebase Website](https://firebase.google.com) and signing up for an account before taking the following steps:
+  This app requires the use a Firebase api key to access Firebase database features.
+  You can acquire one of your own to use when running this project by visiting the [Firebase Website](https://firebase.google.com).
 
-  * Add a new project (you'll have to name it).
+  * Add a new project.
 
   * Once your new project is created, click the gear icon next to Project Overview to access your project settings.
 
@@ -64,10 +65,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-#### Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 #### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
@@ -86,7 +83,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Known Bugs
 
-  * _No known bugs at this time._
+  * _Footer overlaps images in media component._
 
 ## Support and contact details
 
@@ -95,6 +92,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Technologies Used
 
   * HTML
+  * CSS
   * JavaScript
   * NPM
   * Angular
