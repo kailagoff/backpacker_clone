@@ -18,12 +18,15 @@ export class HikesComponent implements OnInit {
     this.hikes = this.hikeService.getHikes();
   }
 
-  // goToDetailPage(clickedHike: Hike) {
-  //   this.router.navigate(['hikes', clickedHike.id]);
-  // };
-  goToDetailPage(clickedHike) {
-    this.router.navigate(['hike', clickedHike.$key]);
+  goToDetailPage(clickedHike: Hike) {
+    this.router.navigate(['hike', clickedHike.id]);
+    console.log("hi");
   };
+
+
+  // goToDetailPage(clickedHike) {
+  //   this.router.navigate(['hike', clickedHike.id]);
+  // };
 
 }
 

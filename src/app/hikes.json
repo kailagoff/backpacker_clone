@@ -1,14 +1,17 @@
 { "hikes": [ {
     "location": "Oregon",
     "image": "https://images.unsplash.com/photo-1520056144227-4ce86fde870b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ecdab40d8eb33d2424755ef987fffd4c&auto=format&fit=crop&w=700&q=60",
+    "content": "Oregon, located in the Pacific Northwest region of the U.S., is defined by rugged cliffs along the coastline, the vibrant volcanic Cascade range including Mt. Hood farther inland, and the Columbia Plateau to the east. The plateau was created by lava flow, forming deep valleys and jagged mountains. And there's no better way to get to see it than with our list of Oregon hikes.",
     "id": "1"
     }, {
     "location": "Colorado",
     "image": "https://images.unsplash.com/photo-1508446760803-1afec7c2b6fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b440ae7adc1ce6a93f23f40fa05a5757&auto=format&fit=crop&w=700&q=60",
+    "content": "",
     "id": "2"
     }, {
     "location": "San Francisco",
     "image": "https://images.unsplash.com/photo-1504163743-92467859cf8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac391367a605984af2c254a61def13da&auto=format&fit=crop&w=700&q=60",
+    "content": "",
     "id": "3"
     } ]
 }
