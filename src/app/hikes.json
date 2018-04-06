@@ -1,20 +1,14 @@
 { "hikes": [ {
-    "title": " Pup Creek Falls ",
     "location": "Oregon",
-    "distance": "6.3 Miles",
-    "description": "Climb an easy 1,000 feet above the Clackamas River to a three-tiered waterfall that rivals almost anything in Maui.",
+    "image": "https://images.unsplash.com/photo-1520056144227-4ce86fde870b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ecdab40d8eb33d2424755ef987fffd4c&auto=format&fit=crop&w=700&q=60",
     "id": "1"
     }, {
-    "title": " Short Sands Beach ",
-    "location": "Oregon",
-    "distance": "4.6 Miles",
-    "description": "Stroll through Giant Sitka spruce to craggy coastal views, then climb into old-growth forest and wild meadows.",
+    "location": "Colorado",
+    "image": "https://images.unsplash.com/photo-1508446760803-1afec7c2b6fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b440ae7adc1ce6a93f23f40fa05a5757&auto=format&fit=crop&w=700&q=60",
     "id": "2"
     }, {
-    "title": "Wildwood Trail",
-    "location": "Oregon",
-    "distance": "6.3 Miles",
-    "description": "Roam dense forests and lush ravines on this 6.4-mile trek just minutes from downtown Portland.",
+    "location": "San Francisco",
+    "image": "https://images.unsplash.com/photo-1504163743-92467859cf8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac391367a605984af2c254a61def13da&auto=format&fit=crop&w=700&q=60",
     "id": "3"
     } ]
 }
