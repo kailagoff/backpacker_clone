@@ -23,17 +23,24 @@
 
 <h4>Oregon Hikes</h4>
 <div class="well">
-  <h1>{{(hikeToDisplay | async)?.title}}</h1>
+
+<h6> Pup Creek Falls ",
+"Oregon",
+"6.3 Miles",
+"Climb an easy 1,000 feet above the Clackamas River to a three-tiered waterfall that rivals almost anything in Maui.",</h6>
+
+
+<h6>" Short Sands Beach ",
+"Oregon",
+"4.6 Miles",
+  "Stroll through Giant Sitka spruce to craggy coastal views, then climb into old-growth forest and wild meadows.",</h6>
+ 
+
+<h6>"Wildwood Trail",
+ "Oregon",
+  "6.3 Miles",
+"Roam dense forests and lush ravines on this 6.4-mile trek just minutes from downtown Portland.",</h6>
 </div>
-
-<div *ngFor="let hike of hikes | async" (click)="goToDetailPage(hike-detail)" class="panel panel-default">
-  <div class="panel-body">
-    <h3><em>{{hike.title}}</em> by {{hike.distance}}</h3>
-  </div>
-</div>
-
-
-
 <div id="map"></div>
 
 <script async defer

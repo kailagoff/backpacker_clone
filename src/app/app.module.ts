@@ -17,6 +17,8 @@ import { MediaComponent } from './media/media.component';
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent } from './hike-detail/hike-detail.component';
 import { HomeComponent } from './home/home.component';
+import { ColoradoDetailComponent } from './colorado-detail/colorado-detail.component';
+import { SanfranDetailComponent } from './sanfran-detail/sanfran-detail.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -34,6 +36,8 @@ export const firebaseConfig = {
     HikesComponent,
     HikeDetailComponent,
     HomeComponent,
+    ColoradoDetailComponent,
+    SanfranDetailComponent,
   ],
   imports: [
     BrowserModule,
