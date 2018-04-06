@@ -17,14 +17,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * User Authentication
   * Routing for all current pages
   * Dynamic Routing
+  * Deployed to Firebase
 
 ### Under-Development Features(currently working on)
-  * Styling and content of components
-  * Google API
-  * Instagram API
+  * Styling and content of Gear and Survival components
+  * Google API(would like to add to hike component)
+  * Instagram API(would like to add to media component)
 
 ## Components
-  * Gear | Hike | Images | Media | Skills | Stories | Survival | Trips
+  * Gear | Hike | Media | Survival |
 
   ## Installation
 

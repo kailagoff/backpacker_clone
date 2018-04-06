@@ -4,20 +4,37 @@
   Master essential wilderness survival skills with tips and advice from the experts at Backpacker Magazine. Our experts teach you how to build fires, forage for food, find shelter, survive animal attacks, and get the most out of every piece of gear you bring into the wilderness.
 </p>
 
-
 <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="https://images.unsplash.com/photo-1507019658682-2924f9dbd499?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c4931d25c5288e8e78996ec47882d7ad&auto=format&fit=crop&w=800&q=60" width="300" height="300">
+    </div>
+    <br>
+    <div class="col-md-4">
+      <img src="https://images.unsplash.com/photo-1460899162311-d63278c9cf9d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc130160575a91709889b22c4d718ed4&auto=format&fit=crop&w=800&q=60" width="300" height="300">
+    </div>
+    <div class="col-md-4">
+      <img src="https://images.unsplash.com/photo-1469292055053-a5ebd1bfc2a6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e3593bc8d91e96e333619bfa6a7756f0&auto=format&fit=crop&w=800&q=60" width="300" height="300">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="container">
   <div id="survival">
     <h2>Survival Articles</h2>
     <div class="row justify-content-center">
-      <div class="col-sm-3" *ngFor="let survival of survivals | async | slice:0:3; let i=index">
+      <div class="col-sm-3" *ngFor="let hike of hikes | async | slice:0:3; let i=index">
         <div class="card border-light">
           <img class="mx-auto d-block" src={{survival.image}}>
           <div class="card-body">
             <p class="card-text">{{survival.title}}</p>
+            <p class="card-text">{{hike.location}}</p>
             <a (click)="goToDetailPage(hike)"><em>learn more...</em></a>
             <br>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
