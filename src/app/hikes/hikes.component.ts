@@ -7,7 +7,8 @@ import { HikeService } from '../hike.service';
 @Component({
   selector: 'app-hikes',
   templateUrl: './hikes.component.html',
-  styleUrls: ['./hikes.component.css']
+  styleUrls: ['./hikes.component.css'],
+  providers: [HikeService]
 })
 export class HikesComponent implements OnInit {
   hikes: FirebaseListObservable<any[]>;
