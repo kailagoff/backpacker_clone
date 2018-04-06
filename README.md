@@ -8,7 +8,7 @@ _An attempt to recreate the Backpacker Magazine website using Angular._
 
 View Backpacker Magazine clone attempt here : https://backpacker-clone.firebaseapp.com/
 
-<kbd><img src="src/img/screenshot.png" alt=""></kbd>
+<kbd><img src="src/img/screenshot1.png" alt=""></kbd>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
