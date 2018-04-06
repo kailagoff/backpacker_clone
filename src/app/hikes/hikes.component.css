@@ -10,13 +10,16 @@ img {
 
 .card {
   height: calc(100% - 15px);
-  margin-bottom: 15px;
-}
-
-.card-title {
-  font-weight: bold;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
 
 .card-body {
-  font-weight: 100;
+  align-items: center;
+}
+
+#hike-locations {
+  text-align: center;
+  align-items: center;
 }
