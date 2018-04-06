@@ -19,13 +19,12 @@ export class HikeDetailComponent implements OnInit {
   hikesId: string;
   hikeToDisplay;
 
-
   constructor(private route: ActivatedRoute, private location: Location, private hikeService: HikeService ) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-    this.hikesId = urlParameters['id']
-  });
+      this.hikesId = urlParameters['id']
+    });
     this.hikeToDisplay = this.hikeService.getHikeById(this.hikesId);
   }
 

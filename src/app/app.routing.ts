@@ -8,7 +8,7 @@ import { HomeComponent } from './home/home.component';
 
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent }   from './hike-detail/hike-detail.component';
-import { ColoradoDetailComponent } from './colorado-detail/colorado-detail.component';
+
 
 const appRoutes: Routes = [
   {
@@ -28,7 +28,7 @@ const appRoutes: Routes = [
   component: HikesComponent,
   },
   {
-  path: 'hikes/:id',
+  path: 'hike/:id',
   component: HikeDetailComponent,
   },
   {
@@ -50,10 +50,6 @@ const appRoutes: Routes = [
   {
   path: 'home/hikes',
   component: HikesComponent,
-  },
-  {
-  path: 'hikes/colorado-detail',
-  component: ColoradoDetailComponent,
   }
 ];
 

@@ -12,15 +12,17 @@ import { HikeService } from '../hike.service';
 })
 export class HikesComponent implements OnInit {
   hikes: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
+
   constructor(private router: Router, private hikeService: HikeService){}
 
   ngOnInit() {
     this.hikes = this.hikeService.getHikes();
   }
 
-  goToDetailPage(clickedHike: Hike) {
-    this.router.navigate(['hike', clickedHike.id]);
-    console.log("hi");
+  goToDetailPage(clickedHike) {
+    console.log(clickedHike);
+    this.router.navigate(['/hike', clickedHike.id]);
   };
 
 

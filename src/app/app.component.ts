@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthenticationService } from './authentication.service';
+import { Hike } from './hike.model';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ export class AppComponent {
   user;
   private isLoggedIn: Boolean;
   private userName: String;
+  public selectedHike = null;
 
   constructor(public authService: AuthenticationService) {
     this.authService.user.subscribe(user =>  {
