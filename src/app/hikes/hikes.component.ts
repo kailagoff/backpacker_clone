@@ -24,12 +24,6 @@ export class HikesComponent implements OnInit {
     console.log(clickedHike);
     this.router.navigate(['hike', clickedHike.$key]);
   };
-
-
-  // goToDetailPage(clickedHike) {
-  //   this.router.navigate(['hike', clickedHike.id]);
-  // };
-
 }
 
 
