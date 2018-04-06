@@ -18,3 +18,30 @@
     "id": "3"
     } ]
 }
+{ "survivals": [ {
+  "title": "Oregon",
+  "image": "https://www.backpacker.com/.image/c_limit%2Ccs_srgb%2Cq_80%2Cw_1280/MTUyNTYwOTQxMTUyNjEwMDY2/15683193341_7a3594dd53_k.webp",
+  "image2":"https://images.unsplash.com/photo-1509121939359-2b4c4d3a0104?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e942bad55af608a26634114d434dc40&auto=format&fit=crop&w=600&q=60",
+  "content": "Nothing says camping quite like a blazing fire. But which type should you build? It depends on the purpose of the fire and the amount of wood you have on hand. Here’s a rundown of the basic types of campfires and what they’re best used for. (As always, use Leave No Trace principles and check local restrictions before you burn.
+
+  Teepee
+  This classic coned-shape structure is named after the Indigenous dwelling it resembles. A wide, circular base allows for ample oxygen flow, so it burns hot. It’s also easy to feed by leaning more sticks against its upright structure. Because this fire consumes wood rapidly and requires constant maintenance, it’s best used as a quick warming fire or for small cooking tasks, like boiling water (wait for the teepee to collapse, then put the pot of water on the coals and add small sticks around the pot to keep the fire going).
+
+  Log Cabin
+  If you’re looking for a fire with a sustained burn that requires minimal effort, the log cabin is the way to go. By stacking thick logs that fall in on one another as they burn, but still leaving space in the center for air to flow, you create a warm fire that burns much slower than the teepee. Building one is easy: Put two logs in your pit parallel to each other, then stack two more on top perpendicular to them. Continue to stack logs to the desired height, then place kindling in the center square and ignite.
+
+
+  Platform (Upside-Down Pyramid)
+  The platform fire is in the same family as the log cabin, but its main purpose is to cook food. The difference is that the logs are stacked closer together (think sardines in a can instead of a pound sign), and that the fire is started on the top level of the platform, as opposed to the bottom center like the log cabin. By burning it down from the top, the fire creates a solid, flat “platform” of coals upon which you can place your pots and pans to cook. To build it, lay three (or more) logs on the ground, then place three more on top perpendicular to the ones below, and so on, at least three levels high. Then, start the fire at the top.
+
+  Star
+  The star fire was used by western Native American tribes with low supplies of wood. Unlike the other methods, which burn entire logs all at once, the star method works by aligning the ends of a few logs and burning them bit by bit. The result is a fire that burns slow, requires no cutting (logs can be any length), and creates a full flame. Create a small tepee fire with kindling, then lay four or five logs around it, one end in the fire and the other end leading away like the point of a starburst. As the fire goes, nudge the logs further into the center to replace what has been burned. Another benefit of the star fire is that it can be extinguished quickly by pulling the logs away from the center.",
+  "id": "1"
+  }, {
+  "title": "Colorado",
+  "image": "https://images.unsplash.com/photo-1508446760803-1afec7c2b6fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b440ae7adc1ce6a93f23f40fa05a5757&auto=format&fit=crop&w=700&q=60",
+  "image2":"https://images.unsplash.com/photo-1446470031315-c47a015f36f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba1cfa2f7cbd7d6b45e17b67af088e17&auto=format&fit=crop&w=600&q=60",
+  "content": "Colorado, known for its high peaks and colorful landscape, is home to diverse terrain including mountains, forests, high plains, mesas, canyons, plateaus, rivers, and desert. Hiking in Colorado runs the gamut between dayhikes and epic-length backpacking trips",
+  "id": "2"
+  }
+}

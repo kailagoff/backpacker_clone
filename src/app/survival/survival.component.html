@@ -3,3 +3,21 @@
 <p>
   Master essential wilderness survival skills with tips and advice from the experts at Backpacker Magazine. Our experts teach you how to build fires, forage for food, find shelter, survive animal attacks, and get the most out of every piece of gear you bring into the wilderness.
 </p>
+
+
+<div class="container">
+  <div id="survival">
+    <h2>Survival Articles</h2>
+    <div class="row justify-content-center">
+      <div class="col-sm-3" *ngFor="let survival of survivals | async | slice:0:3; let i=index">
+        <div class="card border-light">
+          <img class="mx-auto d-block" src={{survival.image}}>
+          <div class="card-body">
+            <p class="card-text">{{survival.title}}</p>
+            <a (click)="goToDetailPage(hike)"><em>learn more...</em></a>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
