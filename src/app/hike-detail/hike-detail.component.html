@@ -9,15 +9,6 @@
     Here's some bonus content for signed-in users.
   </p>
 
-  <div *ngFor="let hike of hikes" (click)="goToDetailPage(hike)">
-      <h3><em>{{hike.title}}</em> {{hike.description}}</h3>
-  </div>
-
-  <div *ngFor="let hike of hikes | async" (click)="goToDetailPage(hike-detail)" class="panel panel-default">
-    <div class="panel-body">
-      <h3><em>{{hike.title}}</em> by {{hike.distance}}</h3>
-    </div>
-  </div>
 
   <h1>Oregon Trails</h1>
 
@@ -31,6 +22,18 @@
 
 
 <h4>Oregon Hikes</h4>
+<div class="well">
+  <h1>{{(hikeToDisplay | async)?.title}}</h1>
+</div>
+
+<div *ngFor="let hike of hikes | async" (click)="goToDetailPage(hike-detail)" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{hike.title}}</em> by {{hike.distance}}</h3>
+  </div>
+</div>
+
+
+
 <div id="map"></div>
 
 <script async defer
