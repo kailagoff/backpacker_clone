@@ -1,16 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Hike } from '../hike.model';
 import { Router } from '@angular/router';
 import { FirebaseListObservable } from 'angularfire2/database';
+import { HikeService } from '../hike.service';
 
 @Component({
   selector: 'app-hikes',
   templateUrl: './hikes.component.html',
   styleUrls: ['./hikes.component.css']
 })
-export class HikesComponent  {
+export class HikesComponent implements OnInit {
   hikes: FirebaseListObservable<any[]>;
-  constructor(private router: Router){}
+  constructor(private router: Router, private hikeService: HikeService){}
+
+  ngOnInit() {
+    this.hikes = this.hikeService.getHikes();
+  }
 
   goToDetailPage(clickedHike: Hike) {
     this.router.navigate(['hikes', clickedHike.id]);
