@@ -15,4 +15,8 @@ export class HikeService {
     return this.hikes;
   }
 
+  getHikeById(hikesId: string) {
+    return this.database.object('/hikes/' + hikesId);
+  }
+
 }
