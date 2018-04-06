@@ -22,7 +22,7 @@ export class HikesComponent implements OnInit {
 
   goToDetailPage(clickedHike) {
     console.log(clickedHike);
-    this.router.navigate(['/hike', clickedHike.id]);
+    this.router.navigate(['hike', clickedHike.$key]);
   };
 
 
