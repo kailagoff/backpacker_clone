@@ -1,0 +1,37 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Hike to Inventory</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Hike Title:</label>
+        <br>
+        <input #newTitle>
+      </div>
+
+      <div>
+        <label>Hike Location:</label>
+        <br>
+        <input #newLocation>
+      </div>
+
+      <div>
+        <label>Hike Distance:</label>
+        <br>
+        <input #newDistance>
+      </div>
+
+      <div>
+        <label>Hike Description:</label>
+        <br>
+        <textarea #newDescription></textarea>
+      </div>
+
+      <br>
+      <button (click)="submitForm(newTitle.value, newLocation.value, newDistance.value, newDescription.value); newTitle.value=''; newLocation.value=''; newDistance.value=''; newDescription.value=''" class="btn btn-dark">Post Article</button>
+    </div>
+  </div>
+</div>
+<br>
+<br>

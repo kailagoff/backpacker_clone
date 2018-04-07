@@ -23,11 +23,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   * Styling and content of Gear and Survival components
   * Google API(would like to add to hike component)
   * Instagram API(would like to add to media component)
+  * Admin Component
 
-## Components
-  * Gear | Hike | Media | Survival |
-
-  ## Installation
+## Installation
 
   1. _`$ git clone` [] _
 
@@ -84,7 +82,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Known Bugs
 
-  * _Footer overlaps images in media component._
+  * _No known bugs at this time._
 
 ## Support and contact details
 

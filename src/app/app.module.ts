@@ -17,6 +17,7 @@ import { MediaComponent } from './media/media.component';
 import { HikesComponent } from './hikes/hikes.component';
 import { HikeDetailComponent } from './hike-detail/hike-detail.component';
 import { HomeComponent } from './home/home.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     MediaComponent,
     HikesComponent,
     HikeDetailComponent,
-    HomeComponent
+    HomeComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

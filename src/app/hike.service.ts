@@ -19,4 +19,8 @@ export class HikeService {
     return this.database.object('/hikes/' + hikesId);
   }
 
+  addHike(newHike: Hike) {
+    this.hikes.push(newHike);
+  }
+
 }

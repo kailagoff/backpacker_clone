@@ -1,6 +1,7 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GearComponent } from './gear/gear.component';
+import { AdminComponent }   from './admin/admin.component';
 
 import { MediaComponent } from './media/media.component';
 import { SurvivalComponent } from './survival/survival.component';
@@ -50,6 +51,10 @@ const appRoutes: Routes = [
   {
   path: 'home/hikes',
   component: HikesComponent,
+  },
+  {
+    path: 'admin',
+    component: AdminComponent
   }
 ];
 
