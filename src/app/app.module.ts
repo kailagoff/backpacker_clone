@@ -10,6 +10,7 @@ import { FormsModule }  from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 
+
 import { AppComponent } from './app.component';
 import { GearComponent } from './gear/gear.component';
 import { SurvivalComponent } from './survival/survival.component';
