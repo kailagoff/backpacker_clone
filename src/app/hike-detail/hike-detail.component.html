@@ -14,11 +14,16 @@
     </div>
 </div>
 
-<div *ngFor="let hike of hikes | async" class="panel panel-default">
-  <div class="panel-body">
-    <h3><em>{{hike.title}}</em>{{hike.content}}</h3>
-    <h1>{{hike.$key}}</h1>
-  </div>
+<div *ngIf="currentRoute === '/admin'">
+ {{hike.location}}
+ <hr>
+ <app-edit-hike [selectedHike]="hike"></app-edit-hike>
+</div>
+
+<div>
+  <h3>{{(hikeToDisplay | async)?.title}}</h3>
+  <h4>{{(hikeToDisplay | async)?.location}}</h4>
+  <p>{{(hikeToDisplay | async)?.description}}</p>
 </div>
 
 <div id="map"></div>

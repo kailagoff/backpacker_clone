@@ -23,7 +23,7 @@ export class HikeDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.hikesId = urlParameters['id']
+      this.hikesId = urlParameters['id'];
     });
     this.hikeToDisplay = this.hikeService.getHikeById(this.hikesId);
   }

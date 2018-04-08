@@ -1,0 +1,16 @@
+<h4>Edit Hike</h4>
+
+<label>New Hike Title:</label>
+<input [(ngModel)]="selectedHike.title">
+<br>
+
+<label>New Hike Distance:</label>
+<input [(ngModel)]="selectedHike.distance">
+<br>
+
+<label>New Hike Description:</label>
+<input [(ngModel)]="selectedHike.description">
+
+<button class="btn btn-dark" (click)="beginUpdatingHike(selectedHike)">Update Hike</button>
+<br>
+<button class="btn btn-dark" (click)="beginDeletingAlbum(selectedAlbum)">Delete Hike</button>

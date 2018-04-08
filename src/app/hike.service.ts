@@ -23,4 +23,14 @@ export class HikeService {
     this.hikes.push(newHike);
   }
 
+  updateHike(localUpdatedHike) {
+    let HikeEntryInFirebase = this.getHikeById(localUpdatedHike.$key);
+    HikeEntryInFirebase.update({title: localUpdatedHike.title, location: localUpdatedHike.location, distance: localUpdatedHike.distance, description: localUpdatedHike.description});
+  }
+
+  deleteHike(localHikeToDelete){
+    var hikeEntryInFirebase = this.getHikeById(localHikeToDelete.$key);
+    hikeEntryInFirebase.remove();
+  }
+
 }
