@@ -5,12 +5,18 @@
 <input [(ngModel)]="selectedHike.title">
 <br>
 
+<label>New Hike Location:</label>
+<input [(ngModel)]="selectedHike.location">
+
 <label>New Hike Distance:</label>
 <input [(ngModel)]="selectedHike.distance">
 <br>
 
-<label>New Hike Description:</label>
-<input [(ngModel)]="selectedHike.description">
+<label>New Hike Image:</label>
+<input [(ngModel)]="selectedHike.image">
+
+<label>Second Hike Image:</label>
+<input [(ngModel)]="selectedHike.image2">
 
 <button class="btn btn-dark" (click)="beginUpdatingHike(selectedHike)">Update Hike</button>
 <br>

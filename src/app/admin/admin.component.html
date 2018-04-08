@@ -23,13 +23,25 @@
       </div>
 
       <div>
-        <label>Hike Description:</label>
+        <label>Hike Content:</label>
         <br>
-        <textarea #newDescription></textarea>
+        <textarea #newContent></textarea>
+      </div>
+
+      <div>
+        <label>Hike Image:</label>
+        <br>
+        <input #newImage>
+      </div>
+
+      <div>
+        <label>Hike second Image:</label>
+        <br>
+        <input #newImage2>
       </div>
 
       <br>
-      <button (click)="submitForm(newTitle.value, newLocation.value, newDistance.value, newDescription.value); newTitle.value=''; newLocation.value=''; newDistance.value=''; newDescription.value=''" class="btn btn-dark">Post Article</button>
+      <button (click)="submitForm(newTitle.value, newLocation.value, newDistance.value, newContent.value, newImage.value, newImage2.value); newTitle.value=''; newLocation.value=''; newDistance.value=''; newContent.value=''; newImage.value; newImage2.value" class="btn btn-dark">Post Article</button>
     </div>
   </div>
 </div>

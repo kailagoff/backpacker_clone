@@ -15,8 +15,8 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
   }
 
-  submitForm(title: string, location: string, distance: string, description: string) {
-   var newHike: Hike = new Hike(title, location, distance, description);
+  submitForm(title: string, location: string, distance: string, content: string, image: string, image2: string) {
+   var newHike: Hike = new Hike(title, location, distance, content, image, image2);
    console.log(newHike);
    this.hikeService.addHike(newHike);
  }
