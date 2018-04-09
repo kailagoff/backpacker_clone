@@ -1,3 +1,8 @@
+<div *ngIf="isLoggedIn">
+  <div>
+    <app-hikes></app-hikes>
+  </div>
+
 <div class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Add New Hike to Inventory</h3>
@@ -47,6 +52,6 @@
 </div>
 <br>
 <br>
-<div>
-  <app-hikes></app-hikes>
+<div *ngIf="!isLoggedIn" class="container">
+<p>You need to log in to have access to this page.<a routerLink=""> Return home.</a></p>
 </div>
