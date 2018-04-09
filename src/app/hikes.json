@@ -1,24 +1,59 @@
 { "hikes": [ {
     "location": "Oregon",
+    "title": "Silver Falls",
+    "distance": "3.7 miles",
     "image": "https://images.unsplash.com/photo-1520056144227-4ce86fde870b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ecdab40d8eb33d2424755ef987fffd4c&auto=format&fit=crop&w=700&q=60",
     "image2":"https://images.unsplash.com/photo-1509121939359-2b4c4d3a0104?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e942bad55af608a26634114d434dc40&auto=format&fit=crop&w=600&q=60",
-    "content": "Oregon, located in the Pacific Northwest region of the U.S., is defined by rugged cliffs along the coastline, the vibrant volcanic Cascade range including Mt. Hood farther inland, and the Columbia Plateau to the east. The plateau was created by lava flow, forming deep valleys and jagged mountains. And there's no better way to get to see it than with our list of Oregon hikes.",
-    "id": "1"
+    "content": "Oregon, located in the Pacific Northwest region of the U.S., is defined by rugged cliffs along the coastline, the vibrant volcanic Cascade range including Mt. Hood farther inland, and the Columbia Plateau to the east. The plateau was created by lava flow, forming deep valleys and jagged mountains. And there's no better way to get to see it than with our list of Oregon hikes."
     }, {
     "location": "Colorado",
+    "title": "Boulder hike",
+    "distance": "3.4 miles",
     "image": "https://images.unsplash.com/photo-1508446760803-1afec7c2b6fe?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b440ae7adc1ce6a93f23f40fa05a5757&auto=format&fit=crop&w=700&q=60",
     "image2":"https://images.unsplash.com/photo-1446470031315-c47a015f36f2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ba1cfa2f7cbd7d6b45e17b67af088e17&auto=format&fit=crop&w=600&q=60",
-    "content": "Colorado, known for its high peaks and colorful landscape, is home to diverse terrain including mountains, forests, high plains, mesas, canyons, plateaus, rivers, and desert. Hiking in Colorado runs the gamut between dayhikes and epic-length backpacking trips",
-    "id": "2"
+    "content": "Colorado, known for its high peaks and colorful landscape, is home to diverse terrain including mountains, forests, high plains, mesas, canyons, plateaus, rivers, and desert. Hiking in Colorado runs the gamut between dayhikes and epic-length backpacking trips"
     }, {
-    "location": "San Francisco",
-    "image": "https://images.unsplash.com/photo-1504163743-92467859cf8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ac391367a605984af2c254a61def13da&auto=format&fit=crop&w=700&q=60",
-    "image2":"https://images.unsplash.com/photo-1484112254746-ebb77e79d303?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3a3209be893f1673f6d70e4733a87bfc&auto=format&fit=crop&w=600&q=60",
-    "content": "Hiking in California can take you to the ocean, the high mountains, the desert, and all the environments in between. Located along the western coast of the U.S., California boasts incredible geography, from famous national parks like Yosemite and Joshua Tree  to Mount Whitney (14,505 feet), the highest peak in the continuous 48 states.",
-    "id": "3"
+    "location": "Washington",
+    "title": "Beach trails",
+    "distance": "2.2 miles",
+    "image": "https://images.unsplash.com/photo-1521390348229-54042c83fec5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1df1e1b0b553bc5a4183fc102073fb13&auto=format&fit=crop&w=800&q=60",
+    "image2":"https://images.unsplash.com/photo-1512688451118-697f8bb44628?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a0b804c5075209f789ea734d1ba7625&auto=format&fit=crop&w=800&q=60",
+    "content": "Walk along the Columbia from downtown Vancouver to Wintler Park passing numerous historic locations"
+    }, {
+    "location": "Arizona",
+    "title": "Switchbacks",
+    "distance": "2.2 miles",
+    "image": "https://images.unsplash.com/photo-1507791473969-26faf2103225?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ff4dbad1a901445e286e30e8ab50d6a&auto=format&fit=crop&w=800&q=60",
+    "image2":"https://images.unsplash.com/photo-1506801017408-42a2a131d60a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05eb8657a6d7c8cf315a549b88328c84&auto=format&fit=crop&w=800&q=60",
+    "content": "Colorado, known for its high peaks and colorful landscape, is home to diverse terrain including mountains, forests, high plains, mesas, canyons, plateaus, rivers, and desert. Hiking in Colorado runs the gamut between dayhikes and epic-length backpacking trips"
+    }, {
+    "location": "Arizona",
+    "title": "Switchbacks",
+    "distance": "2.2 miles",
+    "image": "https://images.unsplash.com/photo-1507791473969-26faf2103225?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ff4dbad1a901445e286e30e8ab50d6a&auto=format&fit=crop&w=800&q=60",
+    "image2":"https://images.unsplash.com/photo-1506801017408-42a2a131d60a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=05eb8657a6d7c8cf315a549b88328c84&auto=format&fit=crop&w=800&q=60",
+    "content": "Colorado, known for its high peaks and colorful landscape, is home to diverse terrain including mountains, forests, high plains, mesas, canyons, plateaus, rivers, and desert. Hiking in Colorado runs the gamut between dayhikes and epic-length backpacking trips"
+    }, {
+    "location": "Utah",
+    "title": "Arches",
+    "distance": "4.6 miles",
+    "image": "https://images.unsplash.com/photo-1474123685650-afa16479e04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c508cdf1f4da5065eadd6afa2ad47461&auto=format&fit=crop&w=800&q=60",
+    "image2":"https://images.unsplash.com/photo-1465855127502-7a9d0a103271?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e564559520b6662fadfc3c0b646aba9&auto=format&fit=crop&w=800&q=60",
+    "content": "The best way to experience the diverse landscapes of Utah is by hiking through them. Utah has some very remote areas that are accessible only to serious backpackers, but routes to other stunningly beautiful scenes are merely pleasant walks."
+    }, {
+    "location": "Idaho",
+    "title": "Idaho Falls",
+    "distance": "5.7miles",
+    "image": "https://images.unsplash.com/photo-1474496517593-015d8b59450d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=50015372a3c62e7b690054616166ec92&auto=format&fit=crop&w=800&q=60",
+    "image2":"https://images.unsplash.com/photo-1500487976-0a70101e60fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa1720ddbfae4964e18a39d7919f31d6&auto=format&fit=crop&w=800&q=60",
+    "content": "With over 19,000 miles of hiking trails, there’s an afternoon distraction or weeklong adventure for every desire. Idaho trails have wide variations in length, difficulty and environment, attracting adventurers from across the U.S. and abroad. Explore the Sawtooth Mountains in central Idaho, reaching heights of almost 11,000 feet, or northern Idaho’s Mineral Ridge, overlooking beautiful Lake Coeur d’Alene, and home to Idaho’s famed bald eagle population."
     }],
     "survivals": [{
-        "title": "Oregon",
-        "content": "Nothing says camping quite like a blazing fire. But which type should you build? It depends on the purpose of the fire and the amount of wood you have on hand. Here’s a rundown of the basic types of campfires and what they’re best used for. (As always, use Leave No Trace principles and check local restrictions before you burn."
-      }]
+        "title": "",
+        "content": ""
+    }],
+    "gears": [{
+        "title": "",
+        "content": ""
+    }]
   }

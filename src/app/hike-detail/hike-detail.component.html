@@ -5,11 +5,12 @@
   <div class="col-md-9">
 
     <div class="well">
-      <h1>{{(hikeToDisplay | async)?.location}}</h1>
+      <h1>{{(hikeToDisplay | async)?.title}}</h1>
 
     </div>
 
     <div class="container" id="hike-display">
+      <p>{{(hikeToDisplay | async)?.distance}}</p>
       <p>{{(hikeToDisplay | async)?.content}}</p>
     </div>
 </div>
@@ -20,11 +21,6 @@
  <app-edit-hike [selectedHike]="hike"></app-edit-hike>
 </div>
 
-<div>
-  <h3>{{(hikeToDisplay | async)?.title}}</h3>
-  <h4>{{(hikeToDisplay | async)?.location}}</h4>
-  <p>{{(hikeToDisplay | async)?.description}}</p>
-</div>
 
 <div id="map"></div>
 
